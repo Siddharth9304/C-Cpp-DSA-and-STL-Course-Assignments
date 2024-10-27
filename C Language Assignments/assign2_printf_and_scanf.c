@@ -72,6 +72,6 @@ int main()
     printf("Enter selling price of bananas per dozen : ");
     scanf("%f",&SP);
     printf("profit or loss upon selling 25 bananas is %f \n", (SP - CP) * 25.0f/12);
-    printf("Note: psitive value means profit and negative value means loss.");
+    printf("Note: positive value means profit and negative value means loss.");
     return 0;
 }
